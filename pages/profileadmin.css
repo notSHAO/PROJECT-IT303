@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url(../img/Banner.png);
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+.navBar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-shadow: 0 0 12px;
+  position: sticky;
+  background-color: #dddbdb;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+.logo:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav li:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 8%;
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.equal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn:hover {
+  background-color: #555;
+}

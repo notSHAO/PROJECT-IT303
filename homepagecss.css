@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/Banner.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: visible;
+}
+header {
+  vertical-align: middle;
+  position: fixed;
+  top: 0ex;
+  width: 100%;
+  height: 72.5px;
+  background-color: #dddbdb;
+  z-index: 10;
+}
+.navBar {
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 0 10px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow: hidden;
+  float: right;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo,
+li,
+ul {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 60px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  text-transform: none;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+a:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+.loginbtn {
+  background-color: #5c9092;
+  padding: 10px 35px;
+  border-radius: 15px;
+  font-style: italic;
+}
+.fblink {
+  background-color: #5c9092;
+  padding: 10px 35px;
+  border-radius: 25px;
+  font-style: italic;
+}
+.emaillink {
+  background-color: #5c9092;
+  padding: 10px 35px;
+  border-radius: 25px;
+  font-style: italic;
+}
+.number {
+  background-color: #5c9092;
+  padding: 10px 35px;
+  border-radius: 25px;
+  font-style: italic;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1 {
+  width: 100%;
+  font-size: 120px;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+.content2 {
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.content3 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  font-size: 30px;
+  font-style: oblique;
+  justify-content: space-between;
+  align-items: center;
+  padding: 280px;
+  color: #fff;
+}
+
+.content3 a {
+  text-decoration: none;
+  text-transform: none;
+  color: #fff;
+}
+p {
+  text-align: center;
+}

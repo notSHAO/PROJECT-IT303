@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url(../img/Banner.png);
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.navBar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-shadow: 0 0 12px;
+  position: fixed;
+  background-color: #dddbdb;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+.logo:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav li:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.row {
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-top: 8%;
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.rooms {
+  display: inline-flex;
+}
+.rooms div {
+  margin: 20px 100px;
+}
+.room {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(172, 172, 170);
+  padding: 10px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 5px;
+}
+
+.rooms img {
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 0 1px;
+}
+
+.room p {
+  text-align: left;
+}
+.seemore a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.seemore {
+  text-align: center;
+}
+.room a:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+button,
+a.editbtn,
+button.delete {
+  color: black;
+  background: transparent;
+  border: 1px solid black;
+  border: none;
+  padding: 5px 1px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1px;
+}
+button:hover {
+  opacity: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
