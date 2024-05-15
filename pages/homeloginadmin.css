@@ -80,7 +80,11 @@ h1 {
 
   box-shadow: 0 0 5px;
 }
-
+.rooms .room .img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+}
 .rooms img {
   width: 280px;
   border-radius: 15px;

@@ -1,5 +1,5 @@
 <?php
-require '..\connection\dbconnect.php';
+require '../connection/dbconnect.php';
 
 if (isset($_GET['id'])) {
   $iD = mysqli_real_escape_string($connect,$_GET['id']);

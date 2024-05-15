@@ -1,5 +1,5 @@
 <?php
-    require '..\connection\dbconnect.php';
+    require '../connection/dbconnect.php';
 
     if(isset($_POST['submitInfo']))
     {

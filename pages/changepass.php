@@ -1,5 +1,5 @@
 <?php
-require '..\connection\dbconnect.php';
+require '../connection/dbconnect.php';
 session_start();
 $email=$_SESSION['email'];
 ?>
