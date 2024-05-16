@@ -152,3 +152,34 @@ section {
   padding: 10px;
   font-size: 20px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+  header {
+    vertical-align: middle;
+    position: fixed;
+    top: 0ex;
+    width: 100%;
+    height: 84px;
+    background-color: #edeeee;
+    z-index: 10;
+  }
+  .logo,
+  li,
+  ul {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 4px;
+  }
+
+  .logo {
+    width: 160px;
+    margin: 10px 0;
+  }
+
+  .navBar a {
+    font-size: 11px;
+    padding: 5px;
+  }
+}

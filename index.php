@@ -31,8 +31,8 @@
           </ul>
           <ul>
             <li>
-              <a href="pages/loginpage.php" style="color: #ffffff"
-                ><form class="loginbtn"><b>Log In/Sign In</b></form></a
+              <a class="loginbtn" href="pages/loginpage.php" style="color: #ffffff"
+                ><b>Log In/Sign In</b></a
               >
             </li>
           </ul>
@@ -44,15 +44,21 @@
       </section>
       <section class="content2" id="about">
         <pre><b>About Us</b>
-            <pre style="font-size: 30px; padding: 1px;">Hey there, welcome to ApartNear! We're all about making
-apartment hunting a breeze for BSAU students like you. Imagine
-finding your dream pad without leaving your couch. Yep, that's
-what we do! From basics to must-haves, we've got you covered.
-So, why wait? Sign in and discover your perfect home sweet
-home with us!
+            <pre class="pre" >Hey there,
+welcome to ApartNear! We're all
+about making apartment hunting
+a breeze for BSAU students like
+you. Imagine finding your dream
+pad without leaving your couch.
+Yep, that's what we do! From basics
+to must-haves, we've got you
+covered. So, why wait? Sign in
+and discover your perfect
+home sweet home with us!
 
 
-To make your apartment available in our website, contact us!</pre>   
+To make your apartment available
+in our website, contact us!</pre>   
           </pre>
       </section>
      
